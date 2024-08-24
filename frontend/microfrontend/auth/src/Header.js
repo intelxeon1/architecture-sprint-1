@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import logoPath from '../images/logo.svg';
 
-// В корневом компоненте App описаны обработчики: onRegister, onLogin и onSignOut. Эти обработчики переданы в соответствующие компоненты: Register.js, Login.js, Header.js
+
 function Header ({onSignOut, email }) {
   function handleSignOut(){
     onSignOut();
